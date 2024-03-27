@@ -14,7 +14,7 @@ import adminRoutes from "./routes/adminRoutes.js"
 // import reviewRoutes from "./routes/reviewRoutes.js"
 import reviewRoutes from "./routes/reviewRoutes.js"
 import payment from "./routes/paymentRoutes.js"
-import paymentak  from "./routes/Paymentak.js"
+// import paymentak  from "./routes/Paymentak.js"
 
 
 dbConnect()
@@ -30,7 +30,7 @@ app.use("/api/user",userRoutes);
 app.use("/api/admin", adminRoutes);
 app.use("/api/review", reviewRoutes);
 app.use("/api/payment", payment);
-app.use("/api/paymentak", paymentak);
+// app.use("/api/paymentak", paymentak);
 
 
 app.get('/config', (req, res) => {
